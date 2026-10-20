@@ -2,7 +2,7 @@ name: Publish B3A bus board
 
 on:
   push:
-    branches: ["codex/b3a-bus-board"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:

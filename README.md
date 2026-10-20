@@ -24,4 +24,4 @@ CDT501 第 8 课的实时巴士到站网页。课堂页面要求制作 `bus.html
 
 ## 检查与发布
 
-运行 `node --test tests/*.test.cjs` 检查到站时间计算、路线过滤、过期数据和缺失预测。推送到 `codex/b3a-bus-board` 分支后，GitHub Actions 会先运行检查，再将 `dist/` 发布至 GitHub Pages。
+运行 `node --test tests/*.test.cjs` 检查到站时间计算、路线过滤、过期数据和缺失预测。推送到 `main` 分支后，GitHub Actions 会先运行检查，再将 `dist/` 发布至 GitHub Pages。
